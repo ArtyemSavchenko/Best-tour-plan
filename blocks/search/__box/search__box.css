@@ -4,7 +4,7 @@
   box-sizing: border-box;
   border: none;
   border-radius: 6px 0 0 6px;
-  background-color: #f5fafe;
+  background-color: var(--back-color-light);
   font-weight: 400;
   font-size: 12px;
   line-height: 1.25;

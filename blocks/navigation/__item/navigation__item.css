@@ -1,0 +1,7 @@
+.navigation__item::after {
+  content: ' / ';
+}
+
+.navigation__item:last-child::after {
+  content: '';
+}

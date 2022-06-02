@@ -2,10 +2,12 @@
 @import url(../fonts/fonts.css);
 
 :root {
-  --back-color: #0A223D;
+  --back-color-dark: #0A223D;
+  --back-color-light: #F5FAFE;
   --accent-color: #EC1F46;
   --accent-hover-color: #e01e41;
   --accent-active-color: #d41c3e;
+  --text-color: #333;
 }
 
 
