@@ -1,0 +1,6 @@
+.stars-box {
+  display: flex;
+  box-sizing: border-box;
+  padding: 5px 0 2px 0;
+  column-gap: 4px;
+}

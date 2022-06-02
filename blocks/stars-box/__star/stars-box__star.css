@@ -1,0 +1,5 @@
+.stars-box__star {
+  width: 6px;
+  height: 6px;
+  background-image: url(../../../images/star.svg);
+}

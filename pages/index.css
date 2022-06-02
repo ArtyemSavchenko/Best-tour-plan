@@ -2,12 +2,14 @@
 @import url(../root/root.css);
 
 @import url(../blocks/page/page.css);
-
 @import url(../blocks/content-wrapper/content-wrapper.css);
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__box/search__box.css);
 @import url(../blocks/search/__button/search__button.css);
+
+@import url(../blocks/stars-box/stars-box.css);
+@import url(../blocks/stars-box/__star/stars-box__star.css);
 
 @import url(../blocks/header/__info/header__info.css);
 @import url(../blocks/header/__info-link/header__info-link.css);
@@ -33,3 +35,11 @@
 @import url(../blocks/navigation/__list/navigation__list.css);
 @import url(../blocks/navigation/__item/navigation__item.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
+
+@import url(../blocks/hotel/hotel.css);
+@import url(../blocks/hotel/__name/hotel__name.css);
+@import url(../blocks/hotel/__name/_type/hotel__name_type_flash-offer.css);
+@import url(../blocks/hotel/__description/hotel__description.css);
+@import url(../blocks/hotel/__rating/hotel__rating.css);
+@import url(../blocks/hotel/__rating-number/hotel__rating-number.css);
+@import url(../blocks/hotel/__grid/hotel__grid.css);

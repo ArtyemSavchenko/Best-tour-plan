@@ -1,0 +1,10 @@
+.hotel__rating-number {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.hotel__rating-number::after {
+  content: '/5';
+  font-size: 10px;
+}
