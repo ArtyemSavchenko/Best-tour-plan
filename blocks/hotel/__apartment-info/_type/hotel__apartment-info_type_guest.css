@@ -1,0 +1,3 @@
+.hotel__apartment-info_type_guest::after {
+  content: ' × Guests';
+}

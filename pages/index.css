@@ -3,6 +3,7 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/content-wrapper/content-wrapper.css);
+@import url(../blocks/currency/currency.css);
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__box/search__box.css);
@@ -10,6 +11,7 @@
 
 @import url(../blocks/stars-box/stars-box.css);
 @import url(../blocks/stars-box/__star/stars-box__star.css);
+@import url(../blocks/btn/btn.css);
 
 @import url(../blocks/header/__info/header__info.css);
 @import url(../blocks/header/__info-link/header__info-link.css);
@@ -42,4 +44,19 @@
 @import url(../blocks/hotel/__description/hotel__description.css);
 @import url(../blocks/hotel/__rating/hotel__rating.css);
 @import url(../blocks/hotel/__rating-number/hotel__rating-number.css);
-@import url(../blocks/hotel/__grid/hotel__grid.css);
+@import url(../blocks/hotel/__name-grid/hotel__name-grid.css);
+@import url(../blocks/hotel/__info/hotel__info.css);
+@import url(../blocks/hotel/__price/hotel__price.css);
+@import url(../blocks/hotel/__apartment-info/hotel__apartment-info.css);
+@import url(../blocks/hotel/__apartment-info/_type/hotel__apartment-info_type_guest.css);
+@import url(../blocks/hotel/__apartment-info/_type/hotel__apartment-info_type_room.css);
+@import url(../blocks/hotel/__apartment-info-icon/hotel__apartment-info-icon.css);
+@import url(../blocks/hotel/__apartment-info-icon/__type/hotel__apartment-info-icon_type_guest.css);
+@import url(../blocks/hotel/__apartment-info-icon/__type/hotel__apartment-info-icon_type_room.css);
+@import url(../blocks/hotel/__appartment-info-box/hotel.__appartment-info-box.css);
+@import url(../blocks/hotel/__info-grid/hotel__info-grid.css);
+@import url(../blocks/hotel/__photo/hotel__photo.css);
+@import url(../blocks/hotel/__booking-text/hotel__booking-text.css);
+@import url(../blocks/hotel/__booking-tel/hotel__booking-tel.css);
+@import url(../blocks/hotel/__options-btn/hotel__options-btn.css);
+@import url(../blocks/hotel/__map/hotel__map.css);

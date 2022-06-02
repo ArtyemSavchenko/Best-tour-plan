@@ -1,0 +1,12 @@
+.currency {
+  display: inline;
+  font-size: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.currency::before {
+  content: '$ ';
+}

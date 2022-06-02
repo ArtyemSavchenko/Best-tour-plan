@@ -1,0 +1,19 @@
+.btn {
+  color: #fff;
+  border: none;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.35;
+  padding: 12px 27px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--accent-hover-color);
+}
+
+.btn:active {
+  background-color: var(--accent-active-color);
+}

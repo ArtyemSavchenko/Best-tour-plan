@@ -1,6 +1,7 @@
-.hotel__grid {
+.hotel__name-grid {
   display: grid;
   grid: repeat(3, max-content) / 1fr max-content;
   grid-auto-flow: column;
   align-items: center;
+  margin-bottom: 20px;
 }

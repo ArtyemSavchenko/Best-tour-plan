@@ -1,0 +1,14 @@
+.hotel__booking-tel {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  justify-self: end;
+}
+
+.hotel__booking-tel:hover {
+  color: var(--accent-color);
+}
+
+.hotel__booking-tel:hover .hotel__booking-tel-icon {
+  fill: var(--accent-color);
+}

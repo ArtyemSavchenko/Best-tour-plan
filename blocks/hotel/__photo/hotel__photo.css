@@ -1,0 +1,9 @@
+.hotel__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  grid-area: 1 / 1 / 3 / 3;
+  border-radius: 8px;
+  max-height: 450px;
+}

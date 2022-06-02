@@ -1,0 +1,11 @@
+.hotel__info {
+  background-color: var(--back-color-dark);
+  border-radius: 8px;
+  padding: 26px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content max-content 1fr;
+  align-items: start;
+  gap: 9px;
+}

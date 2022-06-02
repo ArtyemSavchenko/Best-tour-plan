@@ -1,0 +1,4 @@
+.hotel__options-btn {
+  grid-area: 3 / 1 / -1 / -1;
+  align-self: end;
+}
