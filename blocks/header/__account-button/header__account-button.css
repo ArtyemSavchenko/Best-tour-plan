@@ -1,0 +1,13 @@
+.header__account-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header__account-button:hover .header__account-button-simbol {
+  fill: var(--accent-hover-color);
+}
+
+.header__account-button:active .header__account-button-simbol {
+  fill: var(--accent-active-color);
+}

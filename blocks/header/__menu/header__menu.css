@@ -1,0 +1,6 @@
+.header__menu {
+  min-height: 80px;
+  box-sizing: border-box;
+  padding: 31px 0;
+  background-color: var(--back-color);
+}

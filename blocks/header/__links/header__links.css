@@ -1,0 +1,8 @@
+.header__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}

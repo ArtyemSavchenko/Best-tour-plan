@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+@import url(../root/root.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/content-wrapper/content-wrapper.css);
+
+@import url(../blocks/header/__info/header__info.css);
+@import url(../blocks/header/__info-link/header__info-link.css);
+@import url(../blocks/header/__info-link/_type/header__info-link_type_gift-card.css);
+@import url(../blocks/header/__info-link/_type/header__info-link_type_loyality.css);
+@import url(../blocks/header/__phone/header__phone.css);
+@import url(../blocks/header/__phone/_accent/header__phone_accent.css);
+@import url(../blocks/header/__info-box/header__info-box.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/search/search.css);
+@import url(../blocks/search/__box/search__box.css);
+@import url(../blocks/search/__button/search__button.css);
+@import url(../blocks/header/__cart/header__cart.css);
+@import url(../blocks/header/__cart-img/header__cart-img.css);
+@import url(../blocks/header/__cart-number/header__cart-number.css);
+@import url(../blocks/header/__account/header__account.css);
+@import url(../blocks/header/__account-link/header__account-link.css);
+@import url(../blocks/header/__account-avatar/header__account-avatar.css);
+@import url(../blocks/header/__account-button/header__account-button.css);
+@import url(../blocks/header/__search/header__search.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);

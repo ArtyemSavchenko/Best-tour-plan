@@ -1,0 +1,7 @@
+.header__info-link_type_gift-card::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background: url(../../../../images/header__gift_card.svg) no-repeat center / cover;
+  margin-right: 20px;
+}

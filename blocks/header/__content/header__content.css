@@ -1,0 +1,9 @@
+.header__content {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content max-content;
+  align-items: center;
+  column-gap: 60px;
+  min-height: 120px;
+  box-sizing: border-box;
+  padding: 40px 0;
+}

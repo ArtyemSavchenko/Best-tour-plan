@@ -1,0 +1,25 @@
+.search__box {
+  padding-left: 24px;
+  height: 40px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  background-color: #f5fafe;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #333;
+  width: 285px;
+}
+
+.search__box::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #333;
+}
+
+.search__box:focus {
+  border: var(--accent-color) 1px solid;
+  outline: none;
+}

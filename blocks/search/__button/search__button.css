@@ -1,0 +1,21 @@
+.search__button {
+  padding: 0;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  width: 65px;
+  height: 40px;
+  background-color: var(--accent-color);
+  background-image: url(../../../images/header__search_button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+}
+
+.search__button:hover {
+  background-color: var(--accent-hover-color);
+  cursor: pointer;
+}
+
+.search__button:active {
+  background-color: var(--accent-active-color);
+}

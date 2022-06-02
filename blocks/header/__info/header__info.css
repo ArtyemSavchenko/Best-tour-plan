@@ -1,0 +1,6 @@
+.header__info {
+  box-sizing: border-box;
+  min-height: 60px;
+  padding: 22px 0;
+  background-color: #f5fafe;
+}

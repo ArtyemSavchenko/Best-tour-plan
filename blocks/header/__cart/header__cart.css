@@ -1,0 +1,13 @@
+.header__cart {
+  position: relative;
+  transform: translateY(3px);
+}
+
+.header__cart:hover > .header__cart-number {
+  background-color: var(--accent-hover-color);
+}
+
+.header__cart:active > .header__cart-number {
+  background-color: var(--accent-active-color);
+}
+
