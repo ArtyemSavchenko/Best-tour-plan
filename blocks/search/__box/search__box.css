@@ -8,7 +8,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
-  color: #333;
+  color: var(--text-color);
   width: 285px;
 }
 
@@ -16,7 +16,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
-  color: #333;
+  color: var(--text-color);
 }
 
 .search__box:focus {
