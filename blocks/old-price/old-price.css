@@ -1,0 +1,12 @@
+.old-price {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  margin: 0;
+  text-decoration: line-through;
+}
+
+.old-price::before {
+  content: '$ ';
+}
