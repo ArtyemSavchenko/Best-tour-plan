@@ -1,0 +1,8 @@
+.summary__table {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 100%;
+  min-height: 200px;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}

@@ -1,0 +1,17 @@
+.summary__dates {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--text-color);
+  display: flex;
+  column-gap: 20px;
+  margin: 0;
+}
+
+.summary__dates::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../images/summary__calendar_icon.svg);
+  background-size: 18px 18px;
+}

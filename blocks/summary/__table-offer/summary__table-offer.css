@@ -1,0 +1,7 @@
+.summary__table-offer {
+  background-color: #fff;
+  padding: 30px 25px 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}

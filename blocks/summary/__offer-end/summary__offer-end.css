@@ -1,0 +1,11 @@
+.summary__offer-end {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 0;
+  align-self: end;
+}
+
+.summary__offer-end::before {
+  content: '* Valid until ';
+}

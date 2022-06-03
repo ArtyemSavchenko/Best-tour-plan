@@ -1,0 +1,15 @@
+.summary__offer {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 20px;
+}
+
+.summary__offer::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../images/summary__check_icon.svg);
+  background-size: 18px 18px;
+  grid-area: 1 / 1 / 3 / 1;
+  transform: translateY(2px);
+}

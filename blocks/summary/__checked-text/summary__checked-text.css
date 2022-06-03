@@ -1,0 +1,19 @@
+.summary__checked-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  color: var(--text-color);
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  column-gap: 21px;
+  margin: 0;
+}
+
+.summary__checked-text::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../images/summary__check_icon.svg);
+  background-size: 18px 18px;
+}

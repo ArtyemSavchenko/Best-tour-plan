@@ -1,0 +1,7 @@
+.summary__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: max-content max-content;
+  gap: 32px;
+  grid-auto-flow: row;
+}
