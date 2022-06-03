@@ -1,0 +1,7 @@
+.summary__details-header {
+  margin: 0;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.2;
+}

@@ -77,3 +77,8 @@
 @import url(../blocks/summary/__table-offer/summary__table-offer.css);
 @import url(../blocks/summary/__offer/summary__offer.css);
 @import url(../blocks/summary/__offer-text/summary__offer-text.css);
+@import url(../blocks/summary/__table/_size/summary__table_size_big.css);
+@import url(../blocks/summary/__table-details/summary__table-details.css);
+@import url(../blocks/summary/__dotted-bottom/summary__dotted-bottom.css);
+@import url(../blocks/summary/__details-header/summary__details-header.css);
+@import url(../blocks/summary/__details-list/summary__details-list.css);

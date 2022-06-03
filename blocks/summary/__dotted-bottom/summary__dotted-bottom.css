@@ -1,0 +1,8 @@
+.summary__dotted-bottom {
+  border-bottom: 1px dashed #E0E0E0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  padding-bottom: 45px;
+  grid-area: 1 / 1 / 2 / -1;
+}

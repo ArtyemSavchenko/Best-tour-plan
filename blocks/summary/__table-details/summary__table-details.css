@@ -1,0 +1,7 @@
+.summary__table-details {
+  background-color: #fff;
+  padding: 38px 25px 58px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 33px 25px;
+}
