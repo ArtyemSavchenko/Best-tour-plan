@@ -1,0 +1,10 @@
+.packages__list {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 500px);
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}

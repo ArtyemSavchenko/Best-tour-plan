@@ -3,15 +3,23 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/content-wrapper/content-wrapper.css);
-@import url(../blocks/currency/currency.css);
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__box/search__box.css);
 @import url(../blocks/search/__button/search__button.css);
 
+/* Мелоч */
+@import url(../blocks/currency/currency.css);
 @import url(../blocks/stars-box/stars-box.css);
 @import url(../blocks/stars-box/__star/stars-box__star.css);
 @import url(../blocks/btn/btn.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/guests/guests.css);
+@import url(../blocks/room/room.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/old-price/old-price.css);
+@import url(../blocks/address/address.css);
+/* Конец мелочей */
 
 @import url(../blocks/header/__info/header__info.css);
 @import url(../blocks/header/__info-link/header__info-link.css);
@@ -82,3 +90,19 @@
 @import url(../blocks/summary/__dotted-bottom/summary__dotted-bottom.css);
 @import url(../blocks/summary/__details-header/summary__details-header.css);
 @import url(../blocks/summary/__details-list/summary__details-list.css);
+
+@import url(../blocks/packages/packages.css);
+@import url(../blocks/packages/__list/packages__list.css);
+
+@import url(../blocks/package/package.css);
+@import url(../blocks/package/__btn/package__btn.css);
+@import url(../blocks/package/_size/package_size_small.css);
+@import url(../blocks/package/_size/package_size_big.css);
+@import url(../blocks/package/__photo/_size/package__photo_size_small.css);
+@import url(../blocks/package/__photo/_size/package__photo_size_big.css);
+@import url(../blocks/package/__title/package__title.css);
+@import url(../blocks/package/__info/package__info.css);
+@import url(../blocks/package/__price/package__price.css);
+@import url(../blocks/package/__text/package__text.css);
+@import url(../blocks/package/_type/package_type_flash-offer.css);
+@import url(../blocks/package/_type/package_type_flash-offer-big.css);

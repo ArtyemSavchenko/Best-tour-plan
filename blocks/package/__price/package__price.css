@@ -1,0 +1,4 @@
+.package__price {
+  display: grid;
+  row-gap: 5px;
+}

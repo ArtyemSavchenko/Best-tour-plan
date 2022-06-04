@@ -1,0 +1,9 @@
+.package_size_big {
+  grid-area: 1 / 1 / 2 / 3;
+  padding: 45px 20px 35px 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: repeat(5, max-content);
+  column-gap: 45px;
+
+}

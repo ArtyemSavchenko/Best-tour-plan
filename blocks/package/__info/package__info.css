@@ -1,0 +1,4 @@
+.package__info {
+  display: grid;
+  row-gap: 12px;
+}

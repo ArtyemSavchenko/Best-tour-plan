@@ -1,0 +1,5 @@
+.package {
+  background-color: var(--back-color-dark);
+  border-radius: 8px;
+  position: relative;
+}

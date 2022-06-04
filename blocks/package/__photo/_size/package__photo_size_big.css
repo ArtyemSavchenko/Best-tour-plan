@@ -1,0 +1,7 @@
+.package__photo_size_big {
+  width: 365px;
+  height: 500px;
+  margin-top: -45px;
+  margin-bottom: -35px;
+  grid-area: 1 / 1 / -1 / 2;
+}

@@ -1,0 +1,13 @@
+.package_type_flash-offer-big::before {
+  content: 'Flash Offer';
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  position: absolute;
+  left: 0;
+  top: 26px;
+  background-color: var(--accent-color);
+  padding: 8px 12px;
+  border-radius: 0 4px 4px 0;
+}

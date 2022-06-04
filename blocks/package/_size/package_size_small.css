@@ -1,0 +1,7 @@
+.package_size_small {
+  padding: 0 25px 30px 30px;
+  display: inline-grid;
+  grid-template-columns: max-content;
+  grid-template-rows: repeat(4, max-content);
+  row-gap: 24px;
+}
