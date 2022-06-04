@@ -2,6 +2,8 @@
   background-color: #fff;
   padding: 38px 25px 58px;
   display: grid;
+  grid-template-rows: max-content max-content max-content;
+  grid-auto-flow: column;
   grid-template-columns: repeat(3, 1fr);
   gap: 33px 25px;
 }
