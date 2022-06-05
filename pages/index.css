@@ -118,3 +118,10 @@
 @import url(../blocks/feedback/__date/feedback__date.css);
 @import url(../blocks/feedback/__stars-box/feedback__stars-box.css);
 @import url(../blocks/feedback/__text/feedback__text.css);
+
+@import url(../blocks/newsletter/newsletter.css);
+@import url(../blocks/newsletter/__title/newsletter__title.css);
+@import url(../blocks/newsletter/__title-accent/newsletter__title-accent.css);
+@import url(../blocks/newsletter/__subscribe-form/newsletter__subscribe-form.css);
+@import url(../blocks/newsletter/__subscribe-input/newsletter__subscribe-input.css);
+@import url(../blocks/newsletter/__button/newsletter__button.css);

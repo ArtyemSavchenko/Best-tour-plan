@@ -1,0 +1,20 @@
+.newsletter__button {
+  padding: 18px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  height: 55px;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.newsletter__button:hover {
+  background-color: var(--accent-hover-color);
+  cursor: pointer;
+}
+
+.newsletter__button:active {
+  background-color: var(--accent-active-color);
+}
