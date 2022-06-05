@@ -1,0 +1,34 @@
+.feedback__slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 730px;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 0 100px 30px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 0;
+}
+
+.feedback__slide::before {
+  content: '“';
+  font-size: 150px;
+  font-weight: 900;
+  color: #fafafa;
+  position: absolute;
+  top: -25px;
+  left: 64px;
+  z-index: -1;
+}
+
+.feedback__slide::after {
+  content: '”';
+  font-size: 150px;
+  font-weight: 900;
+  color: #fafafa;
+  position: absolute;
+  top: 87px;
+  right: 60px;
+  z-index: -1;
+}

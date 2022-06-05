@@ -1,0 +1,7 @@
+.feedback__name {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  color: var(--accent-color);
+  margin: 0 0 10px;
+}
