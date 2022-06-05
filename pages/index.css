@@ -126,3 +126,13 @@
 @import url(../blocks/newsletter/__subscribe-form/newsletter__subscribe-form.css);
 @import url(../blocks/newsletter/__subscribe-input/newsletter__subscribe-input.css);
 @import url(../blocks/newsletter/__button/newsletter__button.css);
+
+@import url(../blocks/activities/activities.css);
+@import url(../blocks/activities/__title/activities__title.css);
+@import url(../blocks/activities/__cards/activities__cards.css);
+@import url(../blocks/activities/__card/activities__card.css);
+@import url(../blocks/activities/__name/activities__name.css);
+@import url(../blocks/activities/__card/_number/activities__card_number_one.css);
+@import url(../blocks/activities/__card/_number/activities__card_number_two.css);
+@import url(../blocks/activities/__card/_number/activities__card_number_tree.css);
+@import url(../blocks/activities/__card/_number/activities__card_number_four.css);

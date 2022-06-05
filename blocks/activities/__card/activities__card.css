@@ -1,0 +1,33 @@
+.activities__card {
+  width: 255px;
+  height: 255px;
+  border-radius: 6px;
+  padding: 25px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 18px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background-position: center;
+  background-size: 100% 100%;
+  transition: background-size .3s ease-out;
+}
+
+.activities__card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+  z-index: -1;
+}
+
+.activities__card:hover {
+  background-size: 103% 103%;
+}
