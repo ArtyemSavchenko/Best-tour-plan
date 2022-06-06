@@ -1,0 +1,21 @@
+.footer__input {
+  border: none;
+  border-radius: 4px;
+  padding: 18px 23px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.footer__input::placeholder {
+  color: #bdbdbd;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.footer__input:focus {
+  box-shadow: 0px 0px 0px 1px var(--accent-color) inset;
+  outline: none;
+}

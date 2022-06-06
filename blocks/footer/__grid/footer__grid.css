@@ -1,0 +1,9 @@
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: max-content max-content max-content;
+  padding-bottom: 117px;
+  position: relative;
+  row-gap: 24px;
+  column-gap: 20px;
+}

@@ -1,0 +1,9 @@
+.footer__hint {
+  margin: 0;
+  align-self: start;
+  justify-self: end;
+  color: #e0e0e0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+}

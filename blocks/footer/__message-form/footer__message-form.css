@@ -1,0 +1,7 @@
+.footer__message-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content min-content 123px min-content;
+  gap: 15px;
+  grid-column: 3 / span 2;
+}

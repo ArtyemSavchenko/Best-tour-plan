@@ -1,0 +1,4 @@
+.footer__logo {
+  grid-row: 1 / span 2;
+  transform: translateY(27px);
+}

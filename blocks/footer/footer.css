@@ -1,0 +1,5 @@
+.footer {
+  min-height: 500px;
+  background-color: var(--back-color-dark);
+  padding: 108px 0 46px;
+}

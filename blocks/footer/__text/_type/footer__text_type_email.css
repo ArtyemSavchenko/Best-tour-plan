@@ -1,0 +1,14 @@
+.footer__text_type_email {
+  padding-left: 44px;
+  position: relative;
+}
+
+.footer__text_type_email::before {
+  content: '';
+  background: url(../../../../images/footer__email_icon.svg) no-repeat center / cover;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
