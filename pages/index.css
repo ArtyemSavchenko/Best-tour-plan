@@ -88,7 +88,6 @@
 @import url(../blocks/summary/__table-title/summary__table-title.css);
 @import url(../blocks/summary/__table-package/summary__table-package.css);
 @import url(../blocks/summary/__checked-text/summary__checked-text.css);
-@import url(../blocks/summary/__checked-text/_big-text/summary__checked-text_big-text.css);
 @import url(../blocks/summary/__grid/summary__grid.css);
 @import url(../blocks/summary/__offer-end/summary__offer-end.css);
 @import url(../blocks/summary/__dates/summary__dates.css);
