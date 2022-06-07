@@ -30,7 +30,7 @@
         </a>
 
         <form class="search header__search" action="" method="get">
-          <input type="search" class="search__box" placeholder="Search Location">
+          <input type="search" class="search__box" placeholder="Search Location" required>
           <button class="search__button"></button>
         </form>
 
@@ -370,12 +370,8 @@
         <div class="content-wrapper">
           <h2 class="title feedback__title">What people thinks about us</h2>
           <div class="feedback__slider">
-            <button class="feedback__slider-btn">
-              <svg width="10" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path class="feedback__slider-arrow" fill-rule="evenodd" clip-rule="evenodd"
-                  d="M9.63388 0.616117C10.122 1.10427 10.122 1.89573 9.63388 2.38388L3.01777 9L9.63388 15.6161C10.122 16.1043 10.122 16.8957 9.63388 17.3839C9.14573 17.872 8.35427 17.872 7.86612 17.3839L0.366117 9.88388C-0.122039 9.39573 -0.122039 8.60427 0.366117 8.11612L7.86612 0.616117C8.35427 0.127961 9.14573 0.127961 9.63388 0.616117Z"
-                  fill="#828282" />
-              </svg>
+            <button class="feedback__slider-btn feedback__slider-btn_direction_left">
+
             </button>
             <div class="feedback__slide">
               <img src="./images/feddback__photo.jpg" alt="" class="feedback__photo">
@@ -397,12 +393,8 @@
                 location in a narrow street is not good. Overall it was a good experience and could recommend.
               </p>
             </div>
-            <button class="feedback__slider-btn">
-              <svg width="10" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path class="feedback__slider-arrow" fill-rule="evenodd" clip-rule="evenodd"
-                  d="M0.366117 0.616117C0.854272 0.127961 1.64573 0.127961 2.13388 0.616117L9.63388 8.11612C10.122 8.60427 10.122 9.39573 9.63388 9.88388L2.13388 17.3839C1.64573 17.872 0.854272 17.872 0.366117 17.3839C-0.122039 16.8957 -0.122039 16.1043 0.366117 15.6161L6.98223 9L0.366117 2.38388C-0.122039 1.89573 -0.122039 1.10427 0.366117 0.616117Z"
-                  fill="#828282" />
-              </svg>
+            <button class="feedback__slider-btn feedback__slider-btn_direction_right">
+              
             </button>
           </div>
         </div>
@@ -413,7 +405,7 @@
           <span class="newsletter__title-accent">Newsletter</span>
         </h2>
         <form class="newsletter__subscribe-form" action="" method="get">
-          <input type="email" class="newsletter__subscribe-input" placeholder="Your email address">
+          <input type="email" class="newsletter__subscribe-input" placeholder="Your email address" required>
           <button class="newsletter__button">Send</button>
         </form>
       </section>
@@ -560,26 +552,14 @@
 
       <div class="footer__social-box">
         <h2 class="footer__col-name footer__col-name_direction_row">Social Network</h2>
-        <a href="#" class="footer__social-link">
-          <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="footer__social-icon"
-              d="M10.001 0.00195312C4.47895 0.00195312 0.00195312 4.47895 0.00195312 10.001C0.00195312 14.991 3.65795 19.127 8.43895 19.88V12.892H5.89895V10.001H8.43895V7.79795C8.43895 5.28995 9.93195 3.90695 12.215 3.90695C13.309 3.90695 14.455 4.10195 14.455 4.10195V6.56095H13.191C11.951 6.56095 11.563 7.33295 11.563 8.12395V9.99895H14.334L13.891 12.89H11.563V19.878C16.344 19.129 20 14.992 20 10.001C20 4.47895 15.523 0.00195312 10.001 0.00195312V0.00195312Z"
-              fill="#BDBDBD" />
-          </svg>
+        <a href="#" class="footer__social-link footer__social-link_site_facebook">
+          <span class="visibility-hidden">Facebook.</span>
         </a>
-        <a href="#" class="footer__social-link">
-          <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="footer__social-icon"
-              d="M12.1831 10.3246L9.82477 9.22417C9.61897 9.12862 9.44992 9.23572 9.44992 9.46357V11.5363C9.44992 11.7641 9.61897 11.8712 9.82477 11.7757L12.182 10.6753C12.3889 10.5787 12.3889 10.4212 12.1831 10.3246ZM10.4999 0.419922C4.93282 0.419922 0.419922 4.93282 0.419922 10.4999C0.419922 16.067 4.93282 20.5799 10.4999 20.5799C16.067 20.5799 20.5799 16.067 20.5799 10.4999C20.5799 4.93282 16.067 0.419922 10.4999 0.419922ZM10.4999 14.5949C5.34022 14.5949 5.24992 14.1298 5.24992 10.4999C5.24992 6.87007 5.34022 6.40492 10.4999 6.40492C15.6596 6.40492 15.7499 6.87007 15.7499 10.4999C15.7499 14.1298 15.6596 14.5949 10.4999 14.5949Z"
-              fill="#BDBDBD" />
-          </svg>
+        <a href="#" class="footer__social-link footer__social-link_site_youtube">
+          <span class="visibility-hidden">Youtube.</span>
         </a>
-        <a href="#" class="footer__social-link">
-          <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="footer__social-icon"
-              d="M10 20C8.64583 20 7.35026 19.7363 6.11328 19.209C4.8763 18.6816 3.81185 17.972 2.91992 17.0801C2.02799 16.1882 1.31836 15.1237 0.791016 13.8867C0.263672 12.6497 0 11.3542 0 10C0 8.64583 0.263672 7.35026 0.791016 6.11328C1.31836 4.8763 2.02799 3.81185 2.91992 2.91992C3.81185 2.02799 4.8763 1.31836 6.11328 0.791016C7.35026 0.263672 8.64583 0 10 0C11.3542 0 12.6497 0.263672 13.8867 0.791016C15.1237 1.31836 16.1882 2.02799 17.0801 2.91992C17.972 3.81185 18.6816 4.8763 19.209 6.11328C19.7363 7.35026 20 8.64583 20 10C20 11.3542 19.7363 12.6497 19.209 13.8867C18.6816 15.1237 17.972 16.1882 17.0801 17.0801C16.1882 17.972 15.1237 18.6816 13.8867 19.209C12.6497 19.7363 11.3542 20 10 20ZM15 6.25C15 5.91146 14.8796 5.61849 14.6387 5.37109C14.3978 5.1237 14.1016 5 13.75 5H6.25C5.91146 5 5.61849 5.1237 5.37109 5.37109C5.1237 5.61849 5 5.91146 5 6.25V7.5H7.22656C7.98177 6.66667 8.90625 6.25 10 6.25C11.0938 6.25 12.0182 6.66667 12.7734 7.5H15V6.25ZM7.5 10C7.5 10.6901 7.74414 11.2793 8.23242 11.7676C8.7207 12.2559 9.3099 12.5 10 12.5C10.6901 12.5 11.2793 12.2559 11.7676 11.7676C12.2559 11.2793 12.5 10.6901 12.5 10C12.5 9.3099 12.2559 8.7207 11.7676 8.23242C11.2793 7.74414 10.6901 7.5 10 7.5C9.3099 7.5 8.7207 7.74414 8.23242 8.23242C7.74414 8.7207 7.5 9.3099 7.5 10ZM15 8.75H13.5156C13.6719 9.17969 13.75 9.59635 13.75 10C13.75 11.0417 13.3854 11.9271 12.6562 12.6562C11.9271 13.3854 11.0417 13.75 10 13.75C8.95833 13.75 8.07292 13.3854 7.34375 12.6562C6.61458 11.9271 6.25 11.0417 6.25 10C6.25 9.59635 6.32812 9.17969 6.48438 8.75H5V13.75C5 14.1016 5.12044 14.3978 5.36133 14.6387C5.60221 14.8796 5.89844 15 6.25 15H13.75C14.1016 15 14.3978 14.8796 14.6387 14.6387C14.8796 14.3978 15 14.1016 15 13.75V8.75Z"
-              fill="#BDBDBD" />
-          </svg>
+        <a href="#" class="footer__social-link footer__social-link_site_instagram">
+          <span class="visibility-hidden">Instagram.</span>
         </a>
       </div>
 

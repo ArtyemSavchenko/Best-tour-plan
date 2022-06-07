@@ -3,6 +3,3 @@
   align-items: center;
 }
 
-.footer__social-link:hover .footer__social-icon {
-  fill: var(--accent-color);
-}

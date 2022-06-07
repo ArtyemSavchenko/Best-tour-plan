@@ -22,6 +22,7 @@
 @import url(../blocks/price/price.css);
 @import url(../blocks/old-price/old-price.css);
 @import url(../blocks/address/address.css);
+@import url(../blocks/visibility-hidden/visibility-hidden.css);
 /* Конец мелочей */
 
 @import url(../blocks/message-form/message-form.css);
@@ -121,6 +122,8 @@
 @import url(../blocks/feedback/__title/feedback__title.css);
 @import url(../blocks/feedback/__slider/feedback__slider.css);
 @import url(../blocks/feedback/__slider-btn/feedback__slider-btn.css);
+@import url(../blocks/feedback/__slider-btn/_direction/feedback__slider-btn_direction_left.css);
+@import url(../blocks/feedback/__slider-btn/_direction/feedback__slider-btn_direction_right.css);
 @import url(../blocks/feedback/__photo/feedback__photo.css);
 @import url(../blocks/feedback/__slide/feedback__slide.css);
 @import url(../blocks/feedback/__name/feedback__name.css);
@@ -158,6 +161,9 @@
 @import url(../blocks/footer/__contact-details/footer__contact-details.css);
 @import url(../blocks/footer/__social-box/footer__social-box.css);
 @import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-link/_site/footer__social-link_site_facebook.css);
+@import url(../blocks/footer/__social-link/_site/footer__social-link_site_instagram.css);
+@import url(../blocks/footer/__social-link/_site/footer__social-link_site_youtube.css);
 @import url(../blocks/footer/__message-form/footer__message-form.css);
 @import url(../blocks/footer/__additional-links/footer__additional-links.css);
 @import url(../blocks/footer/__additional-link/footer__additional-link.css);

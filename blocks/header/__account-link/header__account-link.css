@@ -14,5 +14,5 @@
 }
 
 .header__account-link:hover > .header__account-avatar {
-  border: 1px var(--accent-color) solid;
+  box-shadow: 0 0 0 1px var(--accent-color);
 }

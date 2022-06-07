@@ -19,7 +19,6 @@
 }
 
 .newsletter__subscribe-input:focus {
-  border: var(--accent-color) 1px solid;
-  border-right: none;
-  outline: none;
+  box-shadow: 0 0 0 1px var(--accent-color) inset;
+  outline: 0;
 }

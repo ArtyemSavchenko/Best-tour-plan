@@ -2,9 +2,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 20px;
-}
-
-.feedback__slider-btn:hover .feedback__slider-arrow {
-  fill: var(--accent-color);
+  width: 30px;
+  height: 30px;
+  padding: 0;
 }
