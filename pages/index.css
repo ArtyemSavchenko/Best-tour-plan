@@ -22,6 +22,13 @@
 @import url(../blocks/address/address.css);
 /* Конец мелочей */
 
+@import url(../blocks/message-form/message-form.css);
+@import url(../blocks/message-form/__title/message-form__title.css);
+@import url(../blocks/message-form/__input/message-form__input.css);
+@import url(../blocks/message-form/__input/_message-area/message-form__input_message-area.css);
+@import url(../blocks/message-form/__btn/message-form__btn.css);
+@import url(../blocks/message-form/__hint/message-form__hint.css);
+
 @import url(../blocks/header/__info/header__info.css);
 @import url(../blocks/header/__info-link/header__info-link.css);
 @import url(../blocks/header/__info-link/_type/header__info-link_type_gift-card.css);
@@ -140,13 +147,11 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
-@import url(../blocks/footer/__logo-image/footer__logo-image.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__links/_box/footer__links_box_two-rows.css);
 @import url(../blocks/footer/__links/_justify/footer__links_justify_right.css);
 @import url(../blocks/footer/__col-name/footer__col-name.css);
 @import url(../blocks/footer/__col-name/_direction/footer__col-name_direction_row.css);
-@import url(../blocks/footer/__col-name/_type/footer__col-name_type_message-box.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__text/_type/footer__text_type_tel.css);
@@ -156,10 +161,6 @@
 @import url(../blocks/footer/__social-box/footer__social-box.css);
 @import url(../blocks/footer/__social-link/footer__social-link.css);
 @import url(../blocks/footer/__message-form/footer__message-form.css);
-@import url(../blocks/footer/__input/_type/footer__input_type_message.css);
-@import url(../blocks/footer/__hint/footer__hint.css);
-@import url(../blocks/footer/__form-btn/footer__form-btn.css);
-@import url(../blocks/footer/__input/footer__input.css);
 @import url(../blocks/footer/__additional-links/footer__additional-links.css);
 @import url(../blocks/footer/__additional-link/footer__additional-link.css);
 @import url(../blocks/footer/__payments/footer__payments.css);

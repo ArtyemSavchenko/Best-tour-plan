@@ -1,4 +1,4 @@
-.footer__input {
+.message-form__input {
   border: none;
   border-radius: 4px;
   padding: 18px 23px;
@@ -6,16 +6,17 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
+  resize: none;
 }
 
-.footer__input::placeholder {
+.message-form__input::placeholder {
   color: #bdbdbd;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
 }
 
-.footer__input:focus {
+.message-form__input:focus {
   box-shadow: 0px 0px 0px 1px var(--accent-color) inset;
-  outline: none;
+  outline: 0;
 }

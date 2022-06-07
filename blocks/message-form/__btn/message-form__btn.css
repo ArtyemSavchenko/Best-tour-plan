@@ -1,8 +1,7 @@
-.footer__form-btn {
+.message-form__btn {
   justify-self: start;
   padding: 16px 65px;
   font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
-  color: #fff;
 }

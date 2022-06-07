@@ -1,0 +1,9 @@
+.message-form__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 20px;
+  grid-column: 1 / span 2;
+}

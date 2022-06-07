@@ -1,0 +1,3 @@
+.message-form__input_message-area {
+  grid-column: 1 / -1;
+}
