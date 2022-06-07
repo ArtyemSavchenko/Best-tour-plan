@@ -9,6 +9,8 @@
 @import url(../blocks/search/__button/search__button.css);
 
 /* Мелоч */
+@import url(../blocks/logo-small/logo-small.css);
+@import url(../blocks/logo-big/logo-big.css);
 @import url(../blocks/currency/currency.css);
 @import url(../blocks/stars-box/stars-box.css);
 @import url(../blocks/stars-box/__star/stars-box__star.css);
