@@ -74,6 +74,10 @@
 @import url(../blocks/hotel/__apartment-info-icon/__type/hotel__apartment-info-icon_type_room.css);
 @import url(../blocks/hotel/__appartment-info-box/hotel.__appartment-info-box.css);
 @import url(../blocks/hotel/__info-grid/hotel__info-grid.css);
+@import url(../blocks/hotel/__slider/hotel__slider.css);
+@import url(../blocks/hotel/__slider-btn/hotel__slider-btn.css);
+@import url(../blocks/hotel/__slider-btn/_direction/hotel__slider-btn_direction_left.css);
+@import url(../blocks/hotel/__slider-btn/_direction/hotel__slider-btn_direction_right.css);
 @import url(../blocks/hotel/__photo/hotel__photo.css);
 @import url(../blocks/hotel/__booking-text/hotel__booking-text.css);
 @import url(../blocks/hotel/__booking-tel/hotel__booking-tel.css);
