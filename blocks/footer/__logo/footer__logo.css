@@ -1,4 +1,5 @@
 .footer__logo {
   grid-row: 1 / span 2;
-  transform: translateY(27px);
+  place-self: start;
+  transform: translateY(5px);
 }

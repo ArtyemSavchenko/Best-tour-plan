@@ -31,7 +31,7 @@
 
         <form class="search header__search" action="" method="get">
           <input type="search" class="search__box" placeholder="Search Location" required>
-          <button class="search__button"></button>
+          <button class="search__button" aria-label="Search location."></button>
         </form>
 
         <a href="#" class="header__cart">
@@ -44,7 +44,7 @@
             <img src="./images/header__avatar.jpg" alt="Your avatar." class="header__account-avatar">
             Nathan
           </a>
-          <button class="header__account-button">
+          <button class="header__account-button" aria-label="More account info.">
             <svg width="14" height="8" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="header__account-button-simbol" fill-rule="evenodd" clip-rule="evenodd"
                 d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976311 13.3166 -0.0976311 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L7.70711 7.70711C7.31658 8.09763 6.68342 8.09763 6.29289 7.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z"
@@ -133,8 +133,8 @@
         <div class="hotel__info-grid content-wrapper">
           <div class="hotel__slider">
             <img src="./images/hotel__hotel_photo.jpg" alt="Hotel photo." class="hotel__photo">
-            <button class="hotel__slider-btn hotel__slider-btn_direction_left"></button>
-            <button class="hotel__slider-btn hotel__slider-btn_direction_right"></button>
+            <button class="hotel__slider-btn hotel__slider-btn_direction_left" aria-label="Previous slide."></button>
+            <button class="hotel__slider-btn hotel__slider-btn_direction_right" aria-label="Next slide."></button>
           </div>
 
           <div class="hotel__info">
@@ -152,7 +152,7 @@
             <button class="btn hotel__options-btn">View Other Options</button>
           </div>
 
-          <iframe class="hotel__map"
+          <iframe class="hotel__map" title="Hotel on map."
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A7d9f61cad2b55a001af2378bb35a24e29529603eca9bdce9b7c331a9bf164d15&amp;source=constructor"
             width="400" height="300"></iframe>
         </div>
@@ -375,7 +375,7 @@
         <div class="content-wrapper">
           <h2 class="title feedback__title">What people thinks about us</h2>
           <div class="feedback__slider">
-            <button class="feedback__slider-btn feedback__slider-btn_direction_left"></button>
+            <button class="feedback__slider-btn feedback__slider-btn_direction_left" aria-label="Previous feedback."></button>
             <div class="feedback__slide">
               <img src="./images/feddback__photo.jpg" alt="" class="feedback__photo">
               <p class="feedback__name">Megan Fox</p>
@@ -396,7 +396,7 @@
                 location in a narrow street is not good. Overall it was a good experience and could recommend.
               </p>
             </div>
-            <button class="feedback__slider-btn feedback__slider-btn_direction_right"></button>
+            <button class="feedback__slider-btn feedback__slider-btn_direction_right" aria-label="Next feedback."></button>
           </div>
         </div>
       </section>
