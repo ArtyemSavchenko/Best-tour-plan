@@ -1,7 +1,17 @@
+.header__info-link_type_loyality {
+  justify-self: end;
+}
+
 .header__info-link_type_loyality::before {
   content: '';
   width: 16px;
   height: 16px;
   background: url(../../../../images/header__loyality.svg) no-repeat center / cover;
-  margin-right: 20px;
+  margin-right: 10px;
+}
+
+@media (min-width: 1100px) {
+  .header__info-link_type_loyality::before {
+    margin-right: 20px;
+  }
 }

@@ -40,6 +40,7 @@
 @import url(../blocks/header/__phone/_accent/header__phone_accent.css);
 @import url(../blocks/header/__info-box/header__info-box.css);
 @import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__cart/header__cart.css);
 @import url(../blocks/header/__cart-img/header__cart-img.css);
 @import url(../blocks/header/__cart-number/header__cart-number.css);

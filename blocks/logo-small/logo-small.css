@@ -1,4 +1,9 @@
 .logo-small {
-  width: 176px;
-  height: 19px;
+  width: 275px;
+}
+
+@media (min-width: 1100px) {
+  .logo-small {
+    width: 176px;
+  }
 }
