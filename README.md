@@ -1,4 +1,4 @@
-# (Best-tour-plan)[https://artyemsavchenko.github.io/Best-tour-plan/]
+# [Best-tour-plan](https://artyemsavchenko.github.io/Best-tour-plan/)
 ## Учебный проект
 ### Изучение гридов
 Использовал:
